@@ -1,5 +1,7 @@
-x = 1
-while x == 1:
+from asyncore import loop
+
+
+while True:
     userAnswer = input("What do you choose? (Rock, Paper, Scissors)? ")
 
     if userAnswer == "rock":
@@ -8,6 +10,7 @@ while x == 1:
         print ("Scissors cuts paper")
     elif userAnswer == "scissors":
         print("Rock crushes scissors")
-    input("Good game, do you want to continue? (y/n)")
-    if input != "y":
+
+    playAgain = input("Play again? (Y/N): ")
+    if playAgain != "y":
         break
