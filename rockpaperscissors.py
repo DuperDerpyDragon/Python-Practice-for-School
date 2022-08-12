@@ -51,7 +51,7 @@ def computerAnswer(userAnswer):
     
     elif userAnswer == "Spock":
         if(randomNumber == 1):
-            print("Sizard poisons Spock")
+            print("Lizard poisons Spock")
         else:
             print("Paper disproves Spock")
 
