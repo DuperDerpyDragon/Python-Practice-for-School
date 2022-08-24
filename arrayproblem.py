@@ -34,3 +34,5 @@ def numberInput():
     print("Your total amount of numbers in your list is",inputLength ,)
 
 numberInput()
+
+
